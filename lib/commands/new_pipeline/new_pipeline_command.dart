@@ -5,7 +5,7 @@ import 'package:gitlab_pipeline_gen/di/di.dart';
 
 class NewPipelineCommand extends Command {
   @override
-  String description = "generates new pipeline";
+  String description = "generates new pipeline based on pipeline.json file";
 
   @override
   String name = "new";
